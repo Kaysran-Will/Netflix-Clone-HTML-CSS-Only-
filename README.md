@@ -42,6 +42,8 @@ Using CSS pseudo-classes for hover and focus effects
 
 Creating a clean, Netflix-inspired design from scratch
 
+Understanding how to manipulate values to replicate the netflix homepage helped me gain an intuitive understanding of html elements and the css syntax
+
 📦 How to Use
 
 Clone this repository:
