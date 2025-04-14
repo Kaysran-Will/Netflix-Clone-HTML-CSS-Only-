@@ -43,14 +43,15 @@ Using CSS pseudo-classes for hover and focus effects
 Creating a clean, Netflix-inspired design from scratch
 
 📦 How to Use
+
 Clone this repository:
 
 bash
 Copy
 Edit
 git clone https://github.com/your-username/netflix-clone.git
-Open index.html in your browser:
 
+Open index.html in your browser:
 bash
 Copy
 Edit
