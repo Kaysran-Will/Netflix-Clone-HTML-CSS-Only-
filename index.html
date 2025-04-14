@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone By Uketamo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="./assets/images/Netflix_Logo_PMS.png" alt="hello" class="n_logo">
+
+        <div class="nav-right">
+            <div class="lang-container">
+                <select name="language" class="lang">
+                    <option value="English">English</option>
+                    <option value="हिन्दी">हिंदी</option>
+                </select>
+            </div>
+            <span class="sign_in_button">Sign In</span>
+        </div>
+
+    </nav>
+
+    <div class="container1">
+        <div class="first_section">
+            <h1 class="main_heading">Unlimited movies, TV shows and more</h1>
+            <div class="sub_heading1">
+                <h3>Starts at ₹499. Cancel at any time.</h3>
+            </div>
+            <div class="sub_heading2">
+                <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+            </div>
+            <div class="email_input_section">
+                <input type="email" id="email" name="email" placeholder="Email Address">
+                <span>
+                    <button class="get_started_button">Get Started <img src="./assets/images/arrow.svg" alt=""></button>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="second_section">
+        <h2>Trending Now</h2>
+        <div class="slider-wrapper">
+            <div class="slider-container">
+                <!-- Radio inputs to control which slide is visible -->
+                <input type="radio" name="slider" id="s1" checked>
+                <input type="radio" name="slider" id="s2">
+                <input type="radio" name="slider" id="s3">
+
+                <!-- Slides Wrapper -->
+                <div class="slides">
+                    <!-- Slide 1 -->
+                    <div class="slide">
+                        <ul class="trending_list">
+                            <li class="card">
+                                <span class="number">1</span>
+                                <div class="poster poster1"></div>
+                            </li>
+                            <li class="card">
+                                <span class="number">2</span>
+                                <div class="poster poster2"></div>
+                            </li>
+                            <li class="card">
+                                <span class="number">3</span>
+                                <div class="poster poster3"></div>
+                            </li>
+                            <li class="card">
+                                <span class="number">4</span>
+                                <div class="poster poster4"></div>
+                            </li>
+                            <li class="card">
+                                <span class="number">5</span>
+                                <div class="poster poster5"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <ul class="trending_list">
+                            <li class="card">
+                                <span class="number">4</span>
+                                <div class="poster poster4"></div>
+                            </li>
+                            <li class="card">
+                                <span class="number">5</span>
+                                <div class="poster poster5"></div>
+                            </li>
+                            <li class="card">
+                                <span class="number">6</span>
+                                <div class="poster poster6"></div>
+                            </li>
+                            <li class="card">
+                                <span class="number">7</span>
+                                <div class="poster poster7"></div>
+                            </li>
+                            <li class="card">
+                                <span class="number">8</span>
+                                <div class="poster poster8"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <ul class="trending_list">
+                            <li class="card">
+                                <span class="number">6</span>
+                                <div class="poster poster6"></div>
+                            <li class="card">
+                                <span class="number">7</span>
+                                <div class="poster poster7"></div>
+                            </li>
+                            <li class="card">
+                                <span class="number">8</span>
+                                <div class="poster poster8"></div>
+                            </li>
+                            <li class="card">
+                                <span class="number">9</span>
+                                <div class="poster poster9"></div>
+                            </li>
+                            <li class="card">
+                                <span class="number">10</span>
+                                <div class="poster poster10"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Navigation Arrows: Each pair is shown only for its corresponding slide -->
+                <div class="arrows">
+                    <!-- When slide 1 is active: left arrow goes to slide 3, right arrow to slide 2 -->
+                    <label for="s3" class="arrow left arrow-s1"></label>
+                    <label for="s2" class="arrow right arrow-s1"></label>
+
+                    <!-- When slide 2 is active: left arrow goes to slide 1, right arrow to slide 3 -->
+                    <label for="s1" class="arrow left arrow-s2"></label>
+                    <label for="s3" class="arrow right arrow-s2"></label>
+
+                    <!-- When slide 3 is active: left arrow goes to slide 2, right arrow to slide 1 -->
+                    <label for="s2" class="arrow left arrow-s3"></label>
+                    <label for="s1" class="arrow right arrow-s3"></label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="third_section">
+        <h2 class="heading3">More reasons to join</h2>
+        <div class="reasons">
+            <div class="reason">
+                <h3>Enjoy on your TV</h3>
+                <p class="explanation">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and
+                    more.</p>
+                <img src="assets\images\logo 1.svg" alt="icon">
+            </div>
+            <div class="reason">
+                <h3>Download your shows to watch offline</h3>
+                <p class="explanation">Save your favourites easily and always have something to watch.</p>
+                <img src="assets\images\logo 2.svg" alt="logo">
+            </div>
+            <div class="reason">
+                <h3>Watch everywhere</h3>
+                <p class="explanation">Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+                <img src="assets\images\logo 3.svg" alt="logo">
+            </div>
+            <div class="reason">
+                <h3>Create profiles for kids</h3>
+                <p class="explanation">Send kids on adventures with their favourite characters in a space made just for
+                    them — free with your membership.</p>
+                <img src="assets\images\logo 4.svg" alt="logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="fourth_section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="questions">
+            <details class="question">
+                <summary>What is Netflix?</summary>
+                <p class="answer">Netflix is a streaming service that offers a wide variety of award-winning TV shows,
+                    movies, anime, documentaries and more – on thousands of internet-connected devices.
+                    You can watch as much as you want, whenever you want, without a single ad – all for one low monthly
+                    price. There’s always something new to discover, and new TV shows and movies are added every week!
+                </p>
+            </details>
+            <details class="question">
+                <summary>How much does Netflix cost?</summary>
+                <p class="answer">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all
+                    for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</p>
+            </details>
+            <details class="question">
+                <summary>Where can I watch?</summary>
+                <p class="answer">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the
+                    web at netflix.com from your personal computer or on any internet-connected device that offers the
+                    Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                    You can also download your favourite shows with the iOS or Android app. Use downloads to watch while
+                    you’re on the go and without an internet connection. Take Netflix with you anywhere.</p>
+            </details>
+            <details class="question">
+                <summary>How do I cancel</summary>
+                <p class="answer">Netflix is flexible. There are no annoying contracts and no commitments. You can
+                    easily cancel your account online in two clicks. There are no cancellation fees – start or stop your
+                    account anytime.</p>
+            </details>
+            <details class="question">
+                <summary>What can I watch on Netflix?</summary>
+                <p class="answer">Netflix has an extensive library of feature films, documentaries, TV shows, anime,
+                    award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+            </details>
+            <details class="question">
+                <summary>Is Netflix good for kids?</summary>
+                <p class="answer">The Netflix Kids experience is included in your membership to give parents control
+                    while kids enjoy family-friendly shows and films in their own space.
+
+                    Kids profiles comes with PIN-protected parental controls that let you restrict the maturity rating
+                    of content kids can watch and block specific titles you don't want kids to see.
+                </p>
+            </details>
+        </div>
+    </div>
+
+    <div class="call_to_action">
+        <h4 class="call">Ready to watch? Enter your email to create or restart your membership.</h4>
+        <div class="email_container">
+            <div class="email_input_section">
+                <input type="email" id="email" name="email" placeholder="Email Address">
+                <span>
+                    <button class="get_started_button">Get Started <img src="./assets/images/arrow.svg" alt=""></button>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="final_section">
+        <h4>Questions? Call 000-800-919-173</h4>
+        <div class="links">
+            <a href="#" class="link">FAQ</a>
+            <a href="#" class="link">Account</a>
+            <a href="#" class="link">Investor Relations</a>
+            <a href="#" class="link">Ways to Watch</a>
+            <a href="#" class="link">Privacy</a>
+            <a href="#" class="link">Corporate Information</a>
+            <a href="#" class="link">Speed Test</a>
+            <a href="#" class="link">Only on Netflix</a>
+            <a href="#" class="link">Help Centre</a>
+            <a href="#" class="link">Media Centre</a>
+            <a href="#" class="link">Jobs</a>
+            <a href="#" class="link">Terms of Use</a>
+            <a href="#" class="link">Cooke Preferences</a>
+            <a href="#" class="link">Contact Us</a>
+            <a href="#" class="link">Legal Notices</a>
+        </div>
+        <div class="dropdown">
+            <div class="lang-container">
+                <select name="language" class="lang">
+                    <option value="English">English</option>
+                    <option value="हिन्दी">हिंदी</option>
+                </select>
+            </div>
+            <p class="end">Netflix India</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
